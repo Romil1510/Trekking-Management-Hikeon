@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@keyframes soft-zoom {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.02); }
+    100% { transform: scale(1); }
+  }
+  
+  @keyframes soft-float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }
+  
+  @keyframes soft-float-delayed {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
+  }
+  
+  @keyframes soft-shimmer {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  @keyframes soft-fade-in-out {
+    0% { opacity: 0; transform: translateY(10px); }
+    10% { opacity: 1; transform: translateY(0); }
+    90% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(-10px); }
+  }
+  
+  @keyframes soft-scroll {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(8px); }
+    100% { transform: translateY(0); }
+  }
+  
+  @keyframes soft-particle {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(100vh); }
+  }
+  
+  .animate-soft-zoom {
+    animation: soft-zoom 30s ease-in-out infinite;
+  }
+  
+  .animate-soft-float {
+    animation: soft-float 8s ease-in-out infinite;
+  }
+  
+  .animate-soft-float-delayed {
+    animation: soft-float 10s ease-in-out 2s infinite;
+  }
+  
+  .animate-soft-float-slow {
+    animation: soft-float-slow 12s ease-in-out infinite;
+  }
+  
+  .animate-soft-shimmer {
+    background-size: 300% 300%;
+    animation: soft-shimmer 12s ease infinite;
+  }
+  
+  .animate-soft-fade-in-out {
+    animation: soft-fade-in-out 1s ease-in-out;
+  }
+  
+  .animate-soft-scroll {
+    animation: soft-scroll 2s ease-in-out infinite;
+  }
+  
+  .animate-soft-particle {
+    animation: soft-particle linear infinite;
+  }

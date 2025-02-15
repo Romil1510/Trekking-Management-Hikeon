@@ -1,0 +1,267 @@
+import Agasthyakoodam from './Agasthyakoodam.jpg'
+import Aravalli from './Aravalli.jpg'
+import Beaskund from './Beaskund.jpg'
+import Chadar from './Chadar.jpg'
+import Chembra from './Chembrapeak.jpg'
+import Davidscott from './Davidscott.jpg'
+import Goechala from './Goechala.jpg'
+import Harishchandragad from './harishchandragaddd.jpg'
+import Harkidun from './Harkidun.jpg'
+import Himptapass from './Himptapass.jpg'
+import Horsleyhills from './Horsleyhills.jpg'
+import Kalsubai from './Kalsubai.jpg'
+import Kudermukh from './Kudremukh.jpg'
+import Markhavalley from './Markhavalley.jpg'
+import Meesapulimala from './Meesapulimala.jpg'
+import Nandihill from './Nandihills.jpg'
+import pangarchulla from './pangarchulla.jpg'
+import Rajmachi from './Rajmachi.jpg'
+import roopkund from './Roopkund.jpg'
+import Sandakphu from './San.jpg'
+import Saputara from './Saputara.jpg'
+import tarsarmarsar from './tarsarmarsar.jpg'
+import Tawang from './Tawang.jpg'
+import Tripund from './Tripund.jpg'
+import Valley from './Valley.jpg'
+import Yelagirihills from './Yelagirihills.jpg'
+
+
+let all_product=[
+{
+        id:16,
+        grade:"Easy",
+        image:Aravalli,
+        name:"Aravalli Hills Trek",
+        Duration:"6 Days 5 Night",
+        price:"30,000",
+        location:"Rajasthan",
+    },
+    {
+        id:17,
+        grade:"Easy",
+        image:Rajmachi,
+        name:"Rajmachi Trek",
+        Duration:"2 Days 1 Night",
+        price:"2,500",
+        location:"Maharashtra",
+    },
+    {
+        id:18,
+        image:Harishchandragad,
+        grade:"Easy",
+        name:"Harishchandragad",
+        Duration:"5 Days 4 Night",
+        price:"11,500",
+        location:"Maharashtra",
+    },
+    {
+        id:19,
+        image:Kalsubai,
+        grade:"Easy",
+        name:"Kalsubai Peak Trek",
+        Duration:"6 Days 5 Night",
+        price:"11,500",
+        location:"Maharashtra",
+    },
+    {
+    id:20,
+    grade:"Easy",
+    image:Saputara,
+    name:"Saputara Trek",
+    Duration:"6 Days 5 Night",
+    price:"11,500",
+    location:"Gujarat",
+},
+  {
+        id:9,
+        image:Kudermukh,
+        grade:"Easy",
+        name:"Kudermukh Trek",
+        Duration:"6 Days 5 Night",
+        price:"30,000",
+        location:"Karnataka",
+    },
+    {
+        id:10,
+        image:Nandihill,
+        grade:"Easy",
+        name:"Nandi Hills Trek",
+        Duration:"2 Days 1 Night",
+        price:"2,500",
+        location:"Karnataka",
+    },
+    {
+        id:11,
+        grade:"Easy",
+        image:Chembra,
+        name:"Chembra Peak Trek",
+        Duration:"5 Days 4 Night",
+        price:"11,500",
+        location:"Kerala",
+    },
+    {
+        id:12,
+        image:Agasthyakoodam,
+        grade:"Easy",
+        name:"Agasthyakoodam Trek ",
+        Duration:"6 Days 5 Night",
+        price:"11,500",
+        location:"Kerala",
+    },
+    {
+    id:13,
+    image:Meesapulimala,
+    name:"Meesapulimala Trek",
+    grade:"Easy",
+    Duration:"6 Days 5 Night",
+    price:"11,500",
+    location:"Tamil Nadu",
+},
+
+{
+    id:14,
+    image:Yelagirihills,
+    grade:"Easy",
+    name:"Yelagiri Hills Trek",
+    Duration:"6 Days 5 Night",
+    price:"11,500",
+    location:"Tamil Nadu",
+},
+{
+    id:15,
+    image:Horsleyhills,
+    name:"Horsley Hills Trek",
+    grade:"Easy",
+    Duration:"6 Days 5 Night",
+    price:"11,500",
+    location:"Tamil Nadu",
+},
+{
+        id:21,
+        image:Chadar,
+        name:"Chadar Trek",
+        Duration:"6 Days 5 Night",
+        grade:"Easy",
+        price:"30,000",
+        location:"Ladakh",
+    },
+    {
+        id:22,
+        image:Markhavalley,
+        name:"Markha Valley Trek",
+        grade:"Easy",
+        Duration:"2 Days 1 Night",
+        price:"2,500",
+        location:"Ladakh",
+    },
+    {
+        id:23,
+        image:Sandakphu,
+        grade:"Easy",
+        name:"Sandakphu Trek ",
+        Duration:"5 Days 4 Night",
+        price:"11,500",
+        location:"West Bengal",
+    },
+    {
+        id:24,
+        image:Goechala,
+        grade:"Easy",
+        name:"Goechala Trek",
+        Duration:"6 Days 5 Night",
+        price:"11,500",
+        location:"Sikkim",
+    },
+    {
+    id:25,
+    image:Tawang,
+    name:"Tawang Trek",
+    Duration:"6 Days 5 Night",
+    grade:"Easy",
+    price:"11,500",
+    location:"Gujarat",
+},
+{
+    id:26,
+    grade:"Easy",
+    image:Davidscott,
+    name:"David Scott Trail",
+    Duration:"6 Days 5 Night",
+    price:"11,500",
+    location:"Meghalaya",
+},
+ {
+        id:1,
+        image:pangarchulla,
+        grade:"Easy",
+        name:"Pangarchulla trek",
+        Duration:"6 Days 5 Night",
+        price:"30,000",
+        location:"Uttarakhand",
+    },
+    {
+        id:2,
+        image:Tripund,
+        name:"Triund Trek",
+        grade:"Easy",
+        Duration:"2 Days 1 Night",
+        price:"2,500",
+        location:"Himachal Pradesh",
+    },
+    {
+        id:3,
+        image:Himptapass,
+        name:"Hampta Pass Trek",
+        Duration:"5 Days 4 Night",
+        grade:"Easy",
+        price:"11,500",
+        location:"Himachal Pradesh",
+    },
+    {
+        id:4,
+        image:Valley,
+        grade:"Easy",
+        name:"Valley of Flowers Trek",
+        Duration:"6 Days 5 Night",
+        price:"11,500",
+        location:"Uttarakhand",
+    },
+    {
+    id:5,
+    grade:"Easy",
+    image:Beaskund,
+    name:"Beas Kund Trek",
+    Duration:"6 Days 5 Night",
+    price:"11,500",
+    location:"Uttarakhand",
+},
+{
+    id:6,
+    image:roopkund,
+    name:"Roopkund Trek",
+    Duration:"6 Days 5 Night",
+    price:"11,500",
+    grade:"Easy",
+    location:"Uttarakhand",
+},
+{
+    id:7,
+    image:Harkidun,
+    name:"Har Ki Dun Trek",
+    grade:"Easy",
+    Duration:"6 Days 5 Night",
+    price:"11,500",
+    location:"Uttarakhand",
+},
+{
+    id:8,
+    grade:"Easy",
+    image:tarsarmarsar,
+    name:"Tarsar Marsar Trek",
+    Duration:"6 Days 5 Night",
+    price:"11,500",
+    location:"Uttarakhand",
+},
+];
+
+export default all_product; 
