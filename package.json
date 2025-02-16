@@ -28,8 +28,5 @@
   "devDependencies": {
     "vite": "^6.1.0"
   }
-  "scripts": {
-  "build": "vite build"
-}
 }
 
