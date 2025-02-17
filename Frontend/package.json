@@ -4,11 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "react-scripts",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build"
   },
   "engines": {
     "node": ">=18"
