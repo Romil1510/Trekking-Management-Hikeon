@@ -5,11 +5,12 @@
   "type": "module",
 "scripts": {
   "dev": "vite",
-  "start": "vite preview",
   "build": "vite build",
+  "start": "serve -s dist",
   "lint": "eslint .",
   "predeploy": "npm run build"
 },
+
   "engines": {
     "node": ">=18"
   },
