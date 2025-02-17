@@ -9,7 +9,13 @@
   "preview": "vite preview",
   "start": "vite"
 },
-
+  "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "start": "serve -s dist",
+  "lint": "eslint .",
+  "predeploy": "npm run build"
+},
   "engines": {
     "node": ">=18"
   },
