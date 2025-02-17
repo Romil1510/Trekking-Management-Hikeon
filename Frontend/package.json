@@ -3,10 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "build": "react-scripts",
-    "lint": "eslint .",
-  },
+ "scripts": {
+  "dev": "vite",
+  "build": "react-scripts build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "predeploy": "npm run build"
+},
+
   "engines": {
     "node": ">=18"
   },
