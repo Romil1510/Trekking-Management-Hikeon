@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "A trekking application with admin functionality",
   "main": "server.js",
-  "scripts": {
-    "start": "node backend/server.js",
-    "server": "nodemon backend/server.js",
-    "client": "npm start --prefix frontend",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "start": "node server.js",
+  "lint": "eslint .",
+  "predeploy": "npm run build"
+},
+
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
