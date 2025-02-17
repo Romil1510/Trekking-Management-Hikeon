@@ -397,7 +397,7 @@ app.post("/api/logout", verifyToken, (req, res) => {
 });
 
 const port = process.env.PORT || 3000;  // Use Render's assigned port
-app.listen(port, '192.168.0.108', () => {
+app.listen(port, '0.0.0.0', () => {
   console.log(`Server is running on port ${port}`);
 });
 
